@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<!-- this collection was made with scrubjay! find it here: everestpipkin.itch.io/scrubjay -->
+<meta charset='utf-8'>
+<title>Scrubjay</title>
+<style>
+body,html{margin:0;padding:0}a{cursor:pointer}#dropbox{display:flex;align-items:center;width:100%;height:100%;top:0;left:0;margin:0;padding:0;position: absolute;}textarea{width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:5px 0;padding:3px}.newDoor,.newExitDoor,.newNode{position:absolute;max-width:100%;max-height:95%}.newDoorActive{display:flex;align-items:center;justify-content:center;position:absolute;top:0;left:0;width:100%;height:100%;z-index:-100}.childDoor,.childExitDoor,.childNode{overflow:auto;word-break:break-word;transform:scale(1) rotate(0deg) skew(0deg)}.newDoor:hover{filter: contrast(115%);filter: drop-shadow(4px 4px 4px rgba(0,0,0,0.1));cursor:zoom-in}.newExitDoor:hover{filter: contrast(115%);filter: drop-shadow(4px 4px 4px rgba(0,0,0,0.1));cursor:zoom-out}audio,iframe,img,video{max-width:100%;max-height:100%;object-fit:contain}.shadow{filter:drop-shadow(4px 4px 7px black)}
+</style>
+<script>
+function enterDoor(r){for(currentDoor=this,currentDoor.setAttribute("savedleft",currentDoor.style.left),currentDoor.setAttribute("savedtop",currentDoor.style.top),x=0;x<currentDoor.parentNode.children.length;x++)currentDoor.parentNode.children[x].style.display="none";for(currentDoor.style.display="",currentDoor.style.left="0px",currentDoor.style.top="0px",currentDoor.classList.add("newDoorActive"),currentDoor.classList.remove("newDoor"),currentDoor.removeEventListener("dblclick",enterDoor,!0),x=0;x<currentDoor.children.length;x++)-1==currentDoor.children[x].className.indexOf("childDoor")?currentDoor.children[x].style.display="":currentDoor.children[x].style.display="none"}function exitDoor(){if("dropbox"!=currentDoor.id){currentDoor.style.display="",currentDoor.classList.add("newDoor"),currentDoor.classList.remove("newDoorActive"),currentDoor.style.left=currentDoor.getAttribute("savedleft"),currentDoor.style.top=currentDoor.getAttribute("savedtop");var r = currentDoor;for(setTimeout(()=>{r.addEventListener("dblclick",enterDoor,!0)},"100"),x=0;x<currentDoor.children.length;x++)-1==currentDoor.children[x].className.indexOf("childDoor")?currentDoor.children[x].style.display="none":currentDoor.children[x].style.display="";for(currentDoor=currentDoor.parentNode,x=0;x<currentDoor.children.length;x++)-1==currentDoor.children[x].className.indexOf("childDoor")&&(currentDoor.children[x].style.display="")}}function allDescendants(r){for(var e=0;e<r.childNodes.length;e++){var o=r.childNodes[e];allDescendants(o),null!=o.classList&&applyListeners(o)}}function applyListeners(r){r.style.resize="none",r.classList.contains("newDoor")?r.addEventListener("dblclick",enterDoor,!0):r.classList.contains("newExitDoor")&&r.addEventListener("dblclick",exitDoor,!0)}document.addEventListener("DOMContentLoaded", function(event){allDescendants(document.getElementsByTagName("BODY")[0]);  currentDoor = document.getElementById(currentDoorId)   }); var currentDoor; var currentDoorId="dropbox"; 
+</script>
+<script>
+
+</script>
+</head>
+<body>
+
+
+<div id="dropbox" style="background: url(&quot;https://bettysgraphics.neocities.org/images/backgrounds/pattern%202.gif&quot;);"><div id="a1791407923576" class="newDoor draggable" style="position: absolute; left: 114px; top: 316px; z-index: 248; background-color: rgb(0, 0, 0); color: rgb(255, 143, 143);" savedleft="114px" savedtop="316px" movable="true"><div class="childDoor" style="background: url(&quot;https://bettysgraphics.neocities.org/images/backgrounds/pattern%20164.gif&quot;); opacity: 1; transform: scale(1) rotate(0deg) skew(0deg); resize: both; z-index: 0; height: 250px; width: 221px; font-weight: bolder;"><img src="https://blob.gifcities.org/gifcities/7YVAGYA4CCH6YYKBRVUBCLXGRLSROSBA.gif"><center><text>Have a phobia or two.. click me</text></center> <br><div class="dragHandle" style="z-index: 1;"></div></div><div id="achild1791407923577" class="newExitDoor draggable" style="position: absolute; left: 20px; top: 20px; z-index: 13; display: none;"><div class="childExitDoor" style="resize: both; height: 334px; width: 175px;"><img src="https://code-scraps.neocities.org/open_door.png"><center><text>exit door</text></center> <br><div class="dragHandle" style="z-index: 1;"></div></div></div></div><div id="a1791408341207" class="newNode draggable" style="position: absolute; z-index: 82; left: 430px; top: 60px;"><div class="childNode" style="transform: scale(2) rotate(0deg) skew(0deg); resize: both; height: 83px; width: 102px; background-color: rgba(255, 255, 255, 0); padding: 0px;">
+
+<!--StartFragment--><img src="https://web.archive.org/web/20090804060422im_/http://geocities.com/SouthBeach/Terrace/3619/P.gif" alt="/user/P.gif"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791408377582" class="newNode draggable" style="position: absolute; z-index: 93; left: 569px; top: 66px;"><div class="childNode" style="transform: scale(2) rotate(0deg) skew(0deg); resize: both; height: 102px; width: 118px;">
+
+<!--StartFragment--><img src="https://blob.gifcities.org/gifcities/CJ3YOO5ZELM7FEQ7NB3ONLL6QB4VAXQH.gif"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791408517587" class="newNode draggable" style="position: absolute; z-index: 92; left: 705px; top: 106px;"><div class="childNode" style="transform: scale(2) rotate(0deg) skew(0deg); resize: both; height: 112px; width: 123px;">
+
+<!--StartFragment--><img src="https://blob.gifcities.org/gifcities/3VCZOSEWZFB4ARMAUXHQBSV3YLBNRLRI.gif"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791408546387" class="newNode draggable" style="position: absolute; z-index: 88; left: 755px; top: 37px;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 88px; width: 82px;">
+
+<!--StartFragment--><img src="https://blob.gifcities.org/gifcities/7SCX4KQ5QO2NMEDCWXX4VEUZRUD5FXOV.gif"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791408585261" class="newNode draggable" style="position: absolute; z-index: 104; left: 848px; top: 64px;"><div class="childNode" style="transform: scale(2) rotate(0deg) skew(0deg); resize: both; height: 48px; width: 43px;">
+
+<!--StartFragment--><img src="https://blob.gifcities.org/gifcities/HUD5B4ICPCIRSSPOJ6AX3ZQW6EV56IXT.gif"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791408602819" class="newNode draggable" style="position: absolute; z-index: 218; left: 1058px; top: 81px;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 44px; width: 230px;">
+
+<!--StartFragment--><img src="https://web.archive.org/web/20090804060422im_/http://geocities.com/SouthBeach/Terrace/3619/WELCOM4.gif" alt="/user/WELCOM4.gif"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791408621597" class="newNode draggable" style="position: absolute; z-index: 105; left: 833px; top: 32px;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 111px; width: 74px;">
+
+<!--StartFragment--><img src="https://blob.gifcities.org/gifcities/FP5FT4BSQJ2O3XI23WOT347XIPMRL4JG.gif"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791408638285" class="newNode draggable" style="position: absolute; z-index: 129; left: 1255px; top: 22px;"><div class="childNode" style="transform: scale(2) rotate(0deg) skew(0deg); resize: both; height: 54px; width: 100px;">
+
+<!--StartFragment--><img src="https://blob.gifcities.org/gifcities/25IMR5N7JGXQGRQM3OYX44AHG7SM5EGW.gif"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791408722062" class="newNode draggable" style="position: absolute; z-index: 114; left: 683px; top: 79px;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 196px; width: 256px;">
+
+<!--StartFragment--><img src="https://blob.gifcities.org/gifcities/CZHQGFRP4DCFGFHKRGIWBQE2VGY3NGGD.gif"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791408816902" class="newNode draggable" style="position: absolute; z-index: 236; left: 449px; top: 187px;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 139px; width: 235px;">
+
+<!--StartFragment--><img src="https://web.archive.org/web/20091027011827im_/http://geocities.com/ez910503/jointcanim.gif"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791408896919" class="newNode draggable" style="position: absolute; z-index: 0; left: 401px; top: -4px;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 366px; width: 499px;">
+
+<!--StartFragment--><img src="https://bettysgraphics.neocities.org/images/backgrounds/pattern%2052.gif"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791409618928" class="newDoor draggable" style="position: absolute; left: 497px; top: 371px; z-index: 258; background: url(&quot;https://bettysgraphics.neocities.org/images/backgrounds/trees%203.gif&quot;);" savedleft="497px" savedtop="371px" movable="true"><div class="childDoor" style="background: rgba(255, 255, 255, 0); opacity: 1; transform: scale(1) rotate(0deg) skew(0deg); resize: both; z-index: 0; height: 378px; width: 436px;"><img src="https://blob.gifcities.org/gifcities/MTQD7EGYEXZ6OYRN72IK2AGGWTPSIJOP.gif"><center><text></text></center> <br><div class="dragHandle" style="z-index: 1;"></div></div><div id="achild1791409618929" class="newExitDoor draggable" style="position: absolute; left: 46px; top: -8px; z-index: 93; display: none;"><div class="childExitDoor" style="resize: both; transform: scale(0.5);"><img src="https://blob.gifcities.org/gifcities/ZQSMRAOI6CQ3LJMZAOQFRQP4UUOCZ37M.gif"><center><text></text></center> <br><div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791411585199" class="newNode draggable" style="position: absolute; z-index: 56; left: -95px; top: 144px; display: none;"><div class="childNode" style="transform: scale(0.5) rotate(0deg) skew(0deg); resize: both; height: 818px; width: 500px;">
+
+<!--StartFragment--><img src="https://www.onlygfx.com/wp-content/uploads/2017/02/pine-tree-silhouette-2.png" alt="10 Pine Tree Silhouette (PNG Transparent) | OnlyGFX.com"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791411620235" class="newNode draggable" style="position: absolute; z-index: 71; left: 1027px; top: 94px; display: none;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 818px; width: 500px;">
+
+<!--StartFragment--><img src="https://www.onlygfx.com/wp-content/uploads/2017/02/pine-tree-silhouette-2.png" alt="10 Pine Tree Silhouette (PNG Transparent) | OnlyGFX.com"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791411624130" class="newNode draggable" style="position: absolute; z-index: 69; left: 1216px; top: -145px; display: none;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 566px; width: 315px;">
+
+<!--StartFragment--><img src="https://www.onlygfx.com/wp-content/uploads/2017/02/pine-tree-silhouette-2.png" alt="10 Pine Tree Silhouette (PNG Transparent) | OnlyGFX.com"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791411630771" class="newNode draggable" style="position: absolute; z-index: 0; left: -173px; top: -17px; display: none;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 618px; width: 346px;">
+
+<!--StartFragment--><img src="https://www.onlygfx.com/wp-content/uploads/2017/02/pine-tree-silhouette-2.png" alt="10 Pine Tree Silhouette (PNG Transparent) | OnlyGFX.com"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791411662229" class="newNode draggable" style="position: absolute; z-index: 87; left: -144px; top: 225px; display: none;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 680px; width: 328px;">
+
+<!--StartFragment--><img src="https://www.pngkey.com/png/full/3-31230_pine-tree-png-image-pine-trees-transparent-background.png" alt="Download Pine Tree Png Image - Pine Trees Transparent Background PNG Image  with No Background - PNGkey.com"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791411799277" class="newNode draggable" style="position: absolute; z-index: 79; left: 1102px; top: 64px; display: none;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 955px; width: 500px;">
+
+<!--StartFragment--><img src="https://www.pngkey.com/png/full/3-31230_pine-tree-png-image-pine-trees-transparent-background.png" alt="Download Pine Tree Png Image - Pine Trees Transparent Background PNG Image  with No Background - PNGkey.com"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791411846892" class="newNode draggable" style="position: absolute; z-index: 90; left: 18px; top: 136px; display: none;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 671px; width: 500px;">
+
+<!--StartFragment--><img src="https://www.pngall.com/wp-content/uploads/8/Pine-Tree-Transparent.png" alt="Green Pine Tree PNG"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791411894818" class="newNode draggable" style="position: absolute; z-index: 77; left: 875px; top: 285px; display: none;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 705px; width: 500px;">
+
+<!--StartFragment--><img src="https://freepngimg.com/thumb/tree/35338-3-fir-tree-transparent-background.png" alt="Fir-Tree Transparent Background Transparent HQ PNG Download | FreePNGimg"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791411959855" class="newDoor draggable" style="position: absolute; left: 500px; top: 212px; z-index: 101; background: url(&quot;https://bettysgraphics.neocities.org/images/backgrounds/pattern%2036.jpg&quot;); display: none;" savedleft="500px" savedtop="212px" movable="true"><div class="childDoor" style="background: rgba(255, 255, 255, 0); opacity: 1; transform: scale(2) rotate(0deg) skew(0deg); resize: both; z-index: 0;"><img src="https://web.archive.org/web/20020308092710if_/http://geocities.com:80/coil_amsta/pictures/snowoval.gif"><center><text></text></center> <br><div class="dragHandle" style="z-index: 1;"></div></div><div id="achild1791411959856" class="newExitDoor draggable" style="position: absolute; left: 1105px; top: 264px; z-index: 39; display: none;"><div class="childExitDoor" style="resize: both; height: 334px; width: 175px;"><img src="https://code-scraps.neocities.org/open_door.png"><center><text>exit door</text></center> <br><div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791412711679" class="newNode draggable" style="position: absolute; left: 33px; top: 22px; z-index: 45; display: none;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; background: url(&quot;https://bettysgraphics.neocities.org/images/backgrounds/pattern%2050.jpg&quot;); padding: 10px; font-family: Tahoma; text-shadow: rgb(239, 53, 80) -2px 2px, rgb(244, 143, 177) -6px 6px, rgb(126, 87, 194) -10px 10px, rgb(33, 150, 243) -14px 14px, rgb(38, 198, 218) -18px 18px, rgb(67, 160, 71) -22px 22px, rgb(238, 255, 65) -26px 26px, rgb(249, 168, 37) -30px 30px, rgb(255, 87, 34) -34px 34px; font-weight: bolder; font-size: 150%;"><p> SEETHRU32 BLOG&amp; FUN </p>
+<hr><div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791413274442" class="newNode draggable" style="position: absolute; left: 34px; top: 154px; z-index: 62; display: none;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 387px; width: 408px; padding: 5px; background-color: rgb(254, 209, 255);"><div id="title">
+<h1 style="background-color:white;">shitty fuckin g day</h1><h1>
+</h1></div>
+<hr>
+<div id="post">
+<p>Another fucking day to the waste, I don't know why i try <br><br> so annoying</p>
+</div>
+<hr>
+<div style="background-color:white;">
+<h3>Comments</h3>
+<h4>baskeKing3</h4>
+<p>idk dude just keep ur head up <br> you ever hear of chakras</p>
+<h4>seeThru32</h4>
+<p>no</p>
+<div></div></div><div class="dragHandle" style="z-index: 1;"></div></div></div></div></div><div id="a1791409822558" class="newNode draggable" style="position: absolute; left: -33px; top: -6px; z-index: 173;"><div class="childNode" style="transform: scale(0.7) rotate(0deg) skew(0deg); resize: both; height: 266px; width: 374px; background: url(&quot;https://media.discordapp.net/attachments/1412603839370104972/1483910464932155552/msbackground.png?ex=6ac7ef50&amp;is=6ac69dd0&amp;hm=18af4271bd6af3c3170a02dda04d8b4510dd341804cf919d84fd35da94bef028&amp;=&amp;format=webp&amp;quality=lossless&quot;);">new node<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791409944684" class="newNode draggable" style="position: absolute; z-index: 256; left: 428px; top: 643px;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 100px; width: 192px;">
+
+<!--StartFragment--><img src="https://blob.gifcities.org/gifcities/AIZP2RQXDDXUPIIHZCEBBMYC3Z3Z76UU.gif"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791409994034" class="newNode draggable" style="position: absolute; z-index: 176; left: 48px; top: 219px;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 61px; width: 44px;">
+
+<!--StartFragment--><img src="https://blob.gifcities.org/gifcities/CQZOAMSEDJHOSRKVT32VEIAH27IWKETP.gif"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791410005121" class="newNode draggable" style="position: absolute; z-index: 175; left: 99px; top: 227px;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 42px; width: 118px;">
+
+<!--StartFragment--><img src="https://blob.gifcities.org/gifcities/B6CCE4UVGRZOFXJCDVJ3XVPFUUYLLVJ7.gif"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791410070859" class="newNode draggable" style="position: absolute; z-index: 0; left: 924px; top: 265px;"><div class="childNode" style="transform: scale(1) rotate(0deg) skew(0deg); resize: both; height: 148px; width: 490px;">
+
+<!--StartFragment--><img src="https://blob.gifcities.org/gifcities/XHMTZBENGYDRSUTZBUIRQXP5RNVUZF57.gif"><!--EndFragment-->
+
+<div class="dragHandle" style="z-index: 1;"></div></div></div><div id="a1791410118484" class="newDoor draggable" style="position: absolute; left: 1109px; top: 267px; z-index: 241; background: url(&quot;https://bettysgraphics.neocities.org/images/backgrounds/strawberries.gif&quot;); color: rgb(255, 255, 255);" savedleft="1109px" savedtop="267px" movable="true"><div class="childDoor" style="transform: scale(2.3) rotate(0deg) skew(0deg); resize: both; z-index: 0;"><img src="https://blob.gifcities.org/gifcities/3XJKEW5FCBAXKSLJJVO26XPYYVJOH25N.gif"><center><text>Welcome Home!</text></center> <br><div class="dragHandle" style="z-index: 1;"></div></div><div id="achild1791410118484" class="newExitDoor draggable" style="position: absolute; left: 20px; top: 20px; z-index: 16; display: none;"><div class="childExitDoor" style="resize: both; height: 334px; width: 175px;"><img src="https://code-scraps.neocities.org/open_door.png"><center><text>exit door</text></center> <br><div class="dragHandle" style="z-index: 1;"></div></div></div></div></div>
+
+
+
+</body>
+</html>
